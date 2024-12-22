@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.646)), url(../public/Logo/wmremove-transformed.jpeg) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.nav-desktop{
+    @apply
+    hover:text-orange-600 delay-75  font-inter text-white hover:border-b-2  hover:border-orange-500
+}
+.nav-mobile{
+    @apply
+    hover:text-white text-orange-500 p-3 pt-7 ;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.7), rgba(36, 35, 35, 0.646));
+    
+}
+
+.background{
+    
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.7), rgba(36, 35, 35, 0.646));
+    
+}
